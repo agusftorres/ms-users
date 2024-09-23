@@ -1,0 +1,10 @@
+spring:
+  config.activate.on-profile: dev
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mytestdb
+    username: admin
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
