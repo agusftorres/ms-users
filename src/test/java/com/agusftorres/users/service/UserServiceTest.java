@@ -25,7 +25,7 @@ class UserServiceTest {
    private UserRepository userRepository;
 
    @Test
-   public void testGetAllUsuarios() {
+   public void testGetAllUsers() {
 
       List<User> users = Arrays.asList(new User(1L, "John Doe", "john.doe@example.com"));
       when(userRepository.findAll()).thenReturn(users);

@@ -27,7 +27,7 @@ class UserControllerIntegrationTest {
    private ObjectMapper objectMapper;
 
    @Test
-   public void testCreateUsuario() throws Exception {
+   public void testCreateUser() throws Exception {
 
       User user = new User(null, "Jane Doe", "jane.doe@example.com");
 
