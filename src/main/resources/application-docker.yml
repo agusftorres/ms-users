@@ -1,7 +1,7 @@
 spring:
-  config.activate.on-profile: dev
+  config.activate.on-profile: docker
   datasource:
-    url: jdbc:postgresql://localhost:5432/mylocaldb
+    url: jdbc:postgresql://localhost:5432/mydb
     username: postgres
     password: root
   jpa:
